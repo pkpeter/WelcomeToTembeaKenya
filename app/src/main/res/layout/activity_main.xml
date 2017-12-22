@@ -1,0 +1,195 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="inc.peter.welcometotembeakenya.MainActivity">
+
+    <TextView
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Your One Stop Travel Companion"
+        android:textColor="@android:color/white"
+        android:background="#6d918b"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        />
+    <ImageView
+        android:id="@+id/maa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maasai"
+        android:layout_below="@id/stop"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us:"
+        android:textSize="18dp"
+        android:layout_below="@+id/offer3"
+        android:textColor="#000000"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="20dp"
+        />
+    <ImageView
+        android:id="@+id/phn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/phone"
+        android:layout_below="@id/us"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/noi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": +2547-110-110"
+        android:textStyle="bold"
+        android:textColor="#6d918b"
+        android:textSize="15dp"
+        android:layout_below="@id/us"
+        android:layout_toEndOf="@id/phn"
+        android:paddingLeft="20dp"
+        />
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/mai"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/mail"
+        android:layout_below="@id/phn"
+        />
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/nai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": tembeakenya@gmail.com"
+        android:textStyle="bold"
+        android:textColor="#6d918b"
+        android:textSize="15dp"
+        android:layout_below="@id/noi"
+        android:layout_toEndOf="@id/mai"
+        android:paddingLeft="20dp"
+        />
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/open"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/time"
+        android:layout_below="@id/mai"
+        />
+    <TextView
+        android:id="@+id/offer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maa"
+        android:text="We offer :"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+    android:id="@+id/offer1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/offer"
+    android:text="1.Transport To Various Tourist Sites"
+        android:textStyle="bold"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-light"
+        android:textColor="#6d918b"
+    android:paddingLeft="16dp"
+    /><TextView
+    android:id="@+id/offer2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/offer1"
+    android:textStyle="bold"
+    android:text="2.Food and Accomodation "
+    android:textColor="#6d918b"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-light"
+    android:paddingLeft="16dp"
+    />
+    <TextView
+        android:id="@+id/offer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/offer2"
+        android:text="3. Vihicles for Hire "
+        android:textColor="#6d918b"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/closed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": Monday-Saturday 8AM-5PM ,(We are  closed on Sunday's ) "
+        android:textStyle="bold"
+        android:textColor="#6d918b"
+        android:textSize="15dp"
+        android:layout_below="@id/nai"
+        android:layout_toEndOf="@id/open"
+        android:paddingLeft="20dp"
+        />
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/locate"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/location"
+        android:layout_below="@id/open"
+        />
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": P.O BOX 123-45 NAROK TOWN "
+        android:textStyle="bold"
+        android:textColor="#6d918b"
+        android:textSize="15dp"
+        android:layout_below="@id/closed"
+        android:layout_toEndOf="@id/open"
+        android:paddingLeft="20dp"/>
+    <TextView
+        android:id="@+id/here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are located here:"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/locate"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mara"
+        android:layout_below="@id/here"
+        android:scaleType="centerCrop"/>
+
+
+
+</RelativeLayout>
+</ScrollView>
